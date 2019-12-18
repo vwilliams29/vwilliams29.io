@@ -1,0 +1,44 @@
+h1 {
+  color:white;
+  font-size: 80px;
+  font-family: 'Fascinate Inline',cursive;
+  text-align: center;
+}
+h2 {
+  color:white;
+  font-size: 50px;
+  font-family: 'Fascinate Inline',cursive;
+
+}
+p {
+  color: #ffffff;
+  font-size: 150%;
+  font-family: 'Comfortaa',cursive;
+  text-align: center;
+  border-style: solid;
+  margin: 100px 50px 70px 100px;
+}
+body {
+  background-color: lavender;
+}
+img {
+  width: 600px;
+  height: 600px;
+
+}
+img:hover{
+  filter: blur(4px);
+}
+li{
+  font-family: 'Comfortaa',cursive;
+  font-size: 25px;
+
+}
+body{
+  background-color: pink;
+}
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
