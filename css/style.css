@@ -11,15 +11,14 @@ h2 {
 
 }
 p {
-  color: #ffffff;
-  font-size: 150%;
+  color: white;
+  font-size: 250%;
   font-family: 'Comfortaa',cursive;
   text-align: center;
   border-style: solid;
-  margin: 100px 50px 70px 100px;
-}
-body {
-  background-color: lavender;
+  margin: 100px 40px 70px 100px;
+  background-image:url();
+  padding: 25px 25px 25px 25px;
 }
 img {
   width: 600px;
@@ -35,10 +34,17 @@ li{
 
 }
 body{
-  background-color: pink;
+  background-image:url(https://i.pinimg.com/originals/3b/86/43/3b8643e22d8df33f6af651df26237e84.jpg)
 }
 .center{
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+table{
+  font-family: 'Comfortaa',cursive;
+  width: 50%;
+}
+table, th, td{
+  border: 3px solid white;
 }
