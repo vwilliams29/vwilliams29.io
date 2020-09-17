@@ -1,66 +1,76 @@
 h1 {
-  color:white;
+  color: white;
   font-size: 80px;
-  font-family: 'Fascinate Inline',cursive;
+  font-family: "Fascinate Inline", cursive;
   text-align: center;
 }
 h2 {
-  color:white;
+  color: white;
   font-size: 50px;
-  font-family: 'Fascinate Inline',cursive;
-
+  font-family: "Fascinate Inline", cursive;
 }
 p {
   color: white;
   font-size: 250%;
-  font-family: 'Comfortaa',cursive;
+  font-family: "Comfortaa", cursive;
   text-align: center;
   border-style: solid;
   margin: 100px 40px 70px 100px;
-  background-image:url();
+  background-image: url();
   padding: 25px 25px 25px 25px;
 }
 img {
   width: 600px;
   height: 600px;
-
 }
-img.center:hover{
+img.center:hover {
   filter: blur(4px);
 }
-li{
-  font-family: 'Comfortaa',cursive;
+li {
+  font-family: "Comfortaa", cursive;
   font-size: 25px;
-
 }
-body{
-  background-image:url(https://i.pinimg.com/originals/3b/86/43/3b8643e22d8df33f6af651df26237e84.jpg)
+body {
+  background-color: lightpink;
 }
-.center{
+.center {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-table{
-  font-family: 'Comfortaa',cursive;
+table {
+  font-family: "Comfortaa", cursive;
   width: 50%;
 }
-table, th, td{
+table,
+th,
+td {
   border: 3px solid white;
 }
-a:visited{
-  color:#0af5e1
+a:visited {
+  color: #0af5e1;
 }
-a:hover{
-  color:#eb349e
+a:hover {
+  color: #eb349e;
 }
-img.yellow{
-  float:right;
+img.yellow {
+  float: right;
   width: 500px;
-  height:500px;
+  height: 500px;
   animation: anim 3s forwards;
 }
-@keyframes anim{
-  from{filter:blur(4px); }
-  to{filter: saturate(8);}
+@keyframes anim {
+  from {
+    filter: blur(4px);
+  }
+  to {
+    filter: saturate(8);
+  }
+}
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
 }
