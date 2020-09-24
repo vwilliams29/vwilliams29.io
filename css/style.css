@@ -1,6 +1,15 @@
 body,h1,h2,h3,h4,h5,h6 {
-  font-family: "Lato", sans-serif}
-.w3-bar,h1,button {
-  font-family: "Montserrat", sans-serif}
-.fa-anchor,.fa-coffee {
-  font-size:200px}
+  font-family: 'Amatic SC', cursive;
+  font-size: 28px;
+}
+h1,button {
+  font-family: 'Cookie', cursive;
+  font-size: 60px;
+}
+.fa-cloud{
+  font-size:200px;
+  color: pink;
+}
+.w3-bar{
+  font-family: 'Comfortaa', cursive;
+}
